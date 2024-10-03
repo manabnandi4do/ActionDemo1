@@ -20,8 +20,8 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build -t pyimg:latest   .
+        docker build -t manabhub/pyimg:latest   .
 
     - name: Push the Docker image to Docker Hub
       run: |
-        docker push pyimg:latest
+        docker push manabhub/pyimg:latest
